@@ -4,7 +4,7 @@ pipeline {
     agent any
     environment {
         //PATH="/opt/apache-maven-3.6.3/bin:$PATH"
-        PATH="C:\Program Files\apache-maven-3.6.3:$PATH\bin"
+        PATH="/var/jenkins_home/workspace/maven:$PATH"
     }
     
     stages {
